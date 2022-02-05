@@ -14,11 +14,11 @@ description: >-
   available as an <a href="https://cran.r-project.org/package=blandr"
   target="_blank">R package from CRAN</a>
 analyses:
-  - title: Bland-Altman Analysis
+  - title: Bland-Altman analysis for Jamovi
     name: jamoviBAanalysis
     ns: blandr
     menuGroup: blandr
-    menuTitle: Bland-Altman Analysis
+    menuTitle: Bland-Altman analysis for Jamovi
   - title: Differences Q-Q Plot
     name: jamoviBAplotQQ
     ns: blandr
@@ -31,11 +31,13 @@ analyses:
     menuGroup: blandr
     menuSubgroup: Bland-Altman Difference Analysis
     menuTitle: Differences Histogram and Density Curve
-  - title: Bland-Altman Raw Statistics
+  - title: Bland-Altman raw statistics for Jamovi
     name: jamoviBAstats
     ns: blandr
     menuGroup: blandr
     menuSubgroup: Raw Output
-    menuTitle: Bland-Altman Raw Statistics
+    menuTitle: Bland-Altman raw statistics for Jamovi
+usesNative: true
+minApp: 1.0.8
 
 ...
